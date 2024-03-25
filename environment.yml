@@ -3,10 +3,12 @@ channels:
     - fastai
     - pytorch
     - defaults
+    - nvidia
 dependencies:
-  - python>=3.6
-  - pytorch>=1.6
-  - torchvision
+  - python=3.9.16
+  - pytorch=1.12.1+cu116
+  - torchvision=0.13.1+cu116
+  - pytorch-cuda=11.7
   - pip
   - pip:
     - -r requirements.txt
